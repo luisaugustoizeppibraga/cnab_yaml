@@ -1,14 +1,14 @@
 {
-    "name": "luisaugustoizeppibraga/cnab_yaml",
+    "name": "luisaugustobraga/cnab_yaml",
     "type": "library",
     "description": "Especificação do formato Cnab240 e Cnab400 traduzida para Yaml",
     "keywords": ["boleto", "remessa", "retorno", "cnab", "cnab240", "cnab400", "edi", "yaml"],
     "licence": "MIT",
     "authors": [
         {
-            "name": "Luís Augusto Braga",
+            "name": "Luis Augusto",
             "email": "luisaugustobraga@gmail.com"
-        },
+        }
     ],
     "require": {},
     "config": {}
