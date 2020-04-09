@@ -24,6 +24,18 @@ nosso_numero:
   pos: [43, 57]
   picture: '9(15)'
 
+identificacao_emissao:
+  # Identificação da Emissão do Boleto
+  # Código adotado pela FEBRABAN para identificar o responsável e a forma de emissão do boleto.
+  # ‘1’ = Banco Emite
+  # ‘2’ = Beneficiário Emite
+  # ‘4’ = Banco Reemite
+  # ‘5’ = Banco Não Reemite
+  # Os códigos ‘4’ e ‘5’ só serão aceitos para código de movimento para remessa ‘31’, ‘47’ ou ‘48’
+  pos: [61,61]
+  picture: '9(1)'
+  default: '2'
+
 identificacao_distribuicao:
   # Identificação da Entrega / Distribuição do Bloqueto (C010)
   # Código adotado pela FEBRABAN para identificar o responsável pela distribuição do bloqueto.
@@ -34,7 +46,7 @@ identificacao_distribuicao:
   # '3' = Sacado via e-mail
   # '4' = Sacado via SMS
   pos: [62,62]
-  picture: 'X(1)'
+  picture: '9(1)'
   default: '0'
 
 numero_documento:
