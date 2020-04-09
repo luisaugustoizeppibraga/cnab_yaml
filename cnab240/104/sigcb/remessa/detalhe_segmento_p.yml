@@ -23,3 +23,30 @@ modalidade_carteira:
 nosso_numero:
   pos: [43, 57]
   picture: '9(15)'
+
+identificacao_distribuicao:
+  # Identificação da Entrega / Distribuição do Bloqueto (C010)
+  # Código adotado pela FEBRABAN para identificar o responsável pela distribuição do bloqueto.
+  # Id Entrega do Bloqueto
+  # '0' = Postagem pelo Cedente
+  # '1' = Sacado via Correios
+  # '2' = Cedente via Agência CAIXA
+  # '3' = Sacado via e-mail
+  # '4' = Sacado via SMS
+  pos: [62,62]
+  picture: 'X(1)'
+  default: '0'
+
+numero_documento:
+  pos: [63,73]
+  picture: 'X(11)'
+
+uso_exclusivo_caixa_03:
+  pos: [74, 77]
+  picture: 'X(4)'
+  default: ''
+
+agencia_cobradora_dv:
+  pos: [106, 106]
+  picture: 'X(1)'
+  default: '0'
