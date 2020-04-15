@@ -4,7 +4,7 @@ agencia_mantenedora:
 
 agencia_dv:
   pos: [22, 22]
-  picture: '9(1)'
+  picture: 'X(1)'
 
 conta:
   pos: [23, 31]

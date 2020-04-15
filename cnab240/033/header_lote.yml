@@ -18,7 +18,7 @@ agencia:
 
 agencia_dv:
   pos: [58, 58]
-  picture: '9(1)'
+  picture: 'X(1)'
 
 conta:
   pos: [59, 67]

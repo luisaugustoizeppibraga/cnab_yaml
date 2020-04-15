@@ -28,7 +28,7 @@ conta:
 
 conta_dv:
   pos: [29, 29]
-  picture: '9(01)'
+  picture: 'X(1)'
 
 brancos01:
   pos: [30, 33]

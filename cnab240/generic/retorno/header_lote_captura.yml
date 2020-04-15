@@ -56,7 +56,7 @@ agencia_mantenedora:
 
 agencia_dv:
   pos: [59, 59]
-  picture: '9(1)'
+  picture: 'X(1)'
 
 codigo_cedente:
   pos: [60, 71]
@@ -68,7 +68,7 @@ codigo_cedente_dv:
 
 agencia_dv_mais_codigo_cedente_dv:
   pos: [73, 73]
-  picture: '9(1)'
+  picture: 'X(1)'
 
 nome_empresa:
   pos: [74, 103]

@@ -5,7 +5,7 @@ agencia:
 agencia_dv:
   # Dígito Verificador da Agência
   pos: [22, 22]
-  picture: '9(1)'
+  picture: 'X(1)'
 
 conta:
   # Número da conta corrente

@@ -105,7 +105,7 @@ agencia:
 agencia_dv:
   # Dígito Verificador da Agência mantendedora da conta, fornecido pela CAIXA.
   pos: [59, 59]
-  picture: '9(1)'
+  picture: 'X(1)'
 
 codigo_cedente:
   # Código do Cedente
